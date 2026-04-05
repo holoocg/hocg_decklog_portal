@@ -1,1 +1,1 @@
-# wgp_2526_aichi
+# hololive OCG Decklog Portal
