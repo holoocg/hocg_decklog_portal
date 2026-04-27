@@ -5,7 +5,7 @@ const IMAGE_CACHE = 'images-v1';
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CORE_CACHE).then(cache => {
-      return cache.addAll(['/', '/index.html', '/single.html', '/team.html', '/miyagi_team.html']); // 填入你的核心文件路径
+      return cache.addAll(['./', './index.html', './single.html', './team.html', './miyagi_team.html']); // 填入你的核心文件路径
     })
   );
 });
